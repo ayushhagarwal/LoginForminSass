@@ -1,0 +1,62 @@
+.Login {
+  width: 400px;
+  margin: 12px auto;
+  font-size: 16px;
+  padding-top: 14rem;
+  .p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #888;
+  }
+  input[type="submit"] {
+    background: rgb(219, 90, 90);
+    border-color: transparent;
+    margin-top:1.2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    background: #4B0E06;
+  }
+  &-Header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &-Container {
+    background: #ebebeb;
+    padding: 12px;
+    input {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 7px;
+      padding: 16px;
+      outline: 0;
+      font-family: inherit;
+      font-size: 1.2em;
+    }
+  }
+  &-Header {
+    background: rgb(219, 90, 90);
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

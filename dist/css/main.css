@@ -1,0 +1,97 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Login {
+  width: 400px;
+  margin: 12px auto;
+  font-size: 16px;
+  padding-top: 14rem;
+}
+
+.Login .p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 12px;
+}
+
+.Login input[type="email"],
+.Login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.Login input[type="email"]:focus,
+.Login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.Login input[type="submit"] {
+  background: #db5a5a;
+  border-color: transparent;
+  margin-top: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Login input[type="submit"]:hover {
+  background: #4B0E06;
+}
+
+.Login-Header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Login-Container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.Login-Container input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 7px;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1.2em;
+}
+
+.Login-Header {
+  background: #db5a5a;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+body {
+  background: #232526;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#414345), to(#232526));
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */
