@@ -1,2 +1,6 @@
-# LoginForminSass
-A basic login form project made to implement and understand sass styling
+## LoginForminSass
+A basic login form webpage which is styled using SASS.
+
+### Tech Stack
+* HTML
+* SASS
